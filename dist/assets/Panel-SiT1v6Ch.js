@@ -1,0 +1,1 @@
+import{j as n}from"./index-Ck9vosf_.js";function h({title:e,className:s="",actions:r=null,children:a}){return n.jsxs("section",{className:`ui-panel${s?` ${s}`:""}`,children:[(e||r)&&n.jsxs("header",{className:"ui-panel-head",children:[e&&n.jsx("h3",{children:e}),r]}),a]})}export{h as P};

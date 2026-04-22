@@ -1,0 +1,1 @@
+import{j as s}from"./index-Ck9vosf_.js";function f({children:n,className:r="",onClick:e,title:i}){const t=typeof e=="function",a=o=>{t&&(o.key==="Enter"||o.key===" ")&&(o.preventDefault(),e())};return s.jsx("article",{className:["entity-card",r].filter(Boolean).join(" "),title:i,role:t?"button":void 0,tabIndex:t?0:void 0,onClick:t?e:void 0,onKeyDown:a,children:n})}export{f as C};

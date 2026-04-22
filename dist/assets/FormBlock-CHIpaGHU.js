@@ -1,0 +1,1 @@
+import{j as n}from"./index-Ck9vosf_.js";function e({title:r,className:o="",children:s}){return n.jsxs("section",{className:`drawer-block${o?` ${o}`:""}`,children:[r?n.jsx("h4",{children:r}):null,s]})}export{e as F};

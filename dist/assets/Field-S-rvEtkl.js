@@ -1,0 +1,1 @@
+import{j as e}from"./index-Ck9vosf_.js";function r({label:s,children:i,className:l="",required:a=!1}){return e.jsxs("label",{className:`ui-field${l?` ${l}`:""}`,children:[e.jsxs("span",{className:"ui-field-label",children:[s,a?e.jsx("span",{"aria-hidden":"true",children:" *"}):null]}),i]})}export{r as F};
