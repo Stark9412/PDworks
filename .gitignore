@@ -1,0 +1,24 @@
+.vercel/
+node_modules/
+dist/
+.claude/
+.env.local
+.env.*.local
+*.zip
+*.log
+*.tmp
+*.bak
+
+# Large local runtime bundles and historical/reference areas.
+tools/
+deliverables/
+legacy/
+shared/
+skills/
+src_new/
+webtoon_make_source/
+
+# Generated review or extraction work.
+*_tmp/
+_tmp/
+_tmp_unzip/

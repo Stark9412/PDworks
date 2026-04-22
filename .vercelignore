@@ -1,0 +1,12 @@
+.claude
+deliverables
+docs/archive
+legacy
+shared
+skills
+src_new
+tools
+webtoon_make_source
+*.zip
+*.log
+*.tmp

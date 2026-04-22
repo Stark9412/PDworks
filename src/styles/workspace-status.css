@@ -1,0 +1,69 @@
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-pill);
+  border: 0;
+  background: #f4f7fc;
+  color: #445878;
+  min-height: 18px;
+  font-size: var(--task-font-chip, 11px);
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+  padding: 0 6px;
+}
+
+.chip.tone-blue {
+  border-color: #bfd2f2;
+  background: #eaf1ff;
+  color: #315faa;
+}
+
+.chip.tone-yellow {
+  border-color: #f0d59d;
+  background: #fff2d4;
+  color: #7b5a17;
+}
+
+.chip.tone-red {
+  border-color: #f0c4bf;
+  background: #fff0ef;
+  color: #96312d;
+}
+
+.chip.tone-neutral {
+  border-color: var(--color-border);
+  background: #f4f7fc;
+  color: #445878;
+}
+
+.timeline-status-chip-v2.tone-in_progress_today {
+  background: #e4f0ff;
+  border-color: #b6d2f5;
+  color: #21518f;
+}
+
+.timeline-status-chip-v2.tone-in_progress_overdue {
+  background: #ffe7e7;
+  border-color: #ebbbbb;
+  color: #9a2f2c;
+}
+
+.timeline-status-chip-v2.tone-done {
+  background: #e9f8ef;
+  border-color: #b5dec5;
+  color: #226a43;
+}
+
+.timeline-status-chip-v2.tone-hold {
+  background: #f0eaff;
+  border-color: #d2c6ee;
+  color: #67509a;
+}
